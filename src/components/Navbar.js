@@ -47,7 +47,7 @@ class Navbar extends React.Component{
                     </div>
                     <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
                         <li>
-                            <Link to='/homecaregrant'>Home</Link>
+                            <Link to='/'>Home</Link>
                         </li>
                         <li>
                             <Link to='/application'>Apply For Grant</Link>
